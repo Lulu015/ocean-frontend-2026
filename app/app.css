@@ -1,15 +1,32 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+html {
+  background-color: #1e2848;
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+.header {
+  text-align: center;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.header h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #95cc50;
+}
+
+.personagens .personagem {
+  background: #283a6b;
+  width: 300px;
+}
+
+.personagens .personagem img {
+  width: 300px;
+}
+
+.personagens .personagem p {
+  color: white;
+}
+
+.personagens .personagem span {
+  color: black;
+  background: green;
 }
