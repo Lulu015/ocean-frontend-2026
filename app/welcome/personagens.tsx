@@ -31,12 +31,10 @@ export function Personagens() {
           // Aqui percorremos a lista de personagems
           personagens.map((
             personagem
-            // Aqui eu acesso a variavel que corresponde
-            // ao item da lista que estou percorrendo
+            // Acesso à variavel que corresponde ao item da lista que está percorrendo
           ) => {
             return (
-              // Retorno o componente do meu personagem
-              // com os dados do personagem
+              // Retorna o componente do meu personagem com os dados do personagem
               <Personagem 
                 nome={personagem.nome}
                 imagem={personagem.imagem}
