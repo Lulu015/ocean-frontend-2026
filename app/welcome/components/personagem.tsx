@@ -13,6 +13,7 @@ export function Personagem({
     especie,
     vida
 }: PropriedadesPersonagem) {
+
     return (
         <div className="personagem">
           <img 
